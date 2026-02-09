@@ -17,9 +17,7 @@ export function Footer() {
             className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
           >
             <div className="flex items-center gap-2 mb-6">
-              <div className="h-8 w-8 rounded-lg bg-emerald-500 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
+              <img src="/logo.png" alt="Clean Ledger logo" className="h-9 w-9" />
               <span className="text-xl font-bold text-white">Clean Ledger</span>
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed">
