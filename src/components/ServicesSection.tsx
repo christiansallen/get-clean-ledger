@@ -24,7 +24,7 @@ const services = [
   {
     title: 'Financial Reporting',
     description:
-      'Crystal clear P&L, Balance Sheet, and Cash Flow statements delivered monthly with video walkthroughs.',
+      'Crystal clear P&L, Balance Sheet, and Cash Flow statements delivered monthly.',
     icon: Shield,
   },
 ];
@@ -55,8 +55,8 @@ export function ServicesSection() {
             Everything You Need to Grow
           </h3>
           <p className="text-lg text-slate-600">
-            From day-to-day bookkeeping to high-level strategic advice, we
-            handle the numbers so you can focus on the business.
+            From day-to-day bookkeeping to accurate monthly reports, we handle
+            the numbers so you can focus on the business.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import { ArrowRight, Star } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { useOpenCalendly } from './Layout'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 export function HeroSection() {
@@ -30,7 +30,7 @@ export function HeroSection() {
               so you can make informed decisions that drive growth.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => openCalendly()}
                 className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-semibold text-white shadow-lg shadow-emerald-200 hover:bg-emerald-700 hover:-translate-y-0.5 transition-all"
@@ -44,29 +44,6 @@ export function HeroSection() {
               >
                 View Our Services
               </a>
-            </div>
-
-            <div className="flex items-center gap-4 text-sm text-slate-600 justify-center">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <img
-                    key={i}
-                    src={`/avatars/avatar-${i}.jpg`}
-                    alt=""
-                    className="h-8 w-8 rounded-full border-2 border-white object-cover"
-                  />
-                ))}
-              </div>
-              <div className="flex flex-col">
-                <div className="flex text-yellow-400">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="h-4 w-4 fill-current" />
-                  ))}
-                </div>
-                <span className="font-medium text-slate-900">
-                  Trusted by business owners nationwide
-                </span>
-              </div>
             </div>
           </div>
         </div>

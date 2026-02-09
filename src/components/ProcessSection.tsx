@@ -28,7 +28,7 @@ const steps = [
     number: '04',
     title: 'Ongoing Support',
     description:
-      'Receive monthly reports, tax planning, and strategic advice to keep you growing.',
+      'Receive accurate monthly reports that help you understand and manage your numbers.',
     icon: LineChart,
   },
 ];
