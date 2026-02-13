@@ -42,7 +42,7 @@ export function Navbar() {
             }}
             className="flex items-center gap-2"
           >
-            <img src="/logo.svg" alt="Clean Ledger logo" className="h-9 w-9 rounded-lg animate-fade-in" />
+            <img src="/clean-ledger-logo.png" alt="Clean Ledger logo" className="h-9 w-9 rounded-lg animate-fade-in" />
             <span className="text-xl font-bold text-slate-900">Clean Ledger</span>
           </a>
 
